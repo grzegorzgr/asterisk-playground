@@ -1,0 +1,11 @@
+source 'https://rubygems.org'
+
+gem 'puppet-lint', '2.0.0'
+gem 'puppet', '4.5.2'
+gem 'rspec-puppet', '2.4.0'
+gem 'rake', '11.2.2'
+gem 'librarian-puppet','2.2.3'
+gem 'serverspec', '2.36.0'
+gem 'fpm','1.6.2'
+gem 'minitar','0.5.4'
+gem 'puppet-syntax'

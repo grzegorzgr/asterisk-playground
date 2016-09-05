@@ -1,0 +1,21 @@
+---
+:backends:
+  - eyaml
+  - yaml
+
+:hierarchy:
+  - local
+  - "%{::environment}/hosts/%{::fqdn}"
+  - "%{::environment}/%{::node_role}"
+  - "%{::environment}/common"
+  - "common/%{::node_role}"
+  - common
+
+:yaml:
+  :datadir: "/etc/puppetlabs/code/environments/%{::environment}/hieradata/"
+
+:eyaml:
+  :datadir: "/etc/puppetlabs/code/environments/%{::environment}/hieradata/"
+  :extension: 'yaml'
+
+:merge_behavior: deeper

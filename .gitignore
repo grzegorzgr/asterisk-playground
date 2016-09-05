@@ -1,0 +1,7 @@
+scripts/*
+hierakeys/*
+.vagrant/
+.tmp/
+.librarian/
+Rakefile
+Vagrantfile
