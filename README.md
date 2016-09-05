@@ -1,7 +1,7 @@
 
 <snippet>
-  <content><![CDATA[
-# ${1:Fancy asterisk playground}
+  <content>
+# Fancy asterisk playground
 Just a little side project
 ## Installation
 bundle install
@@ -14,6 +14,6 @@ custom rpms I also included a jenkins and server.
 
 Perhaps ill try to run this on AWS someday :)
 
-]]></content>
-  <tabTrigger>readme</tabTrigger>
+</content>
+  <tabTrigger>Asterisk + Jenkins + Nginx</tabTrigger>
 </snippet>
