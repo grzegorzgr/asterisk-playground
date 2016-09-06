@@ -7,6 +7,7 @@ Just a little side project
 1. bundle install
 2. bundle exec librarian-puppet install
 3. vagrant up
+<br / >
 ## Description
 Since I do have a little spare time I though I will start a new project involving
 provisioning of asterisk pbx server running on Centos 7. Since i will need coupke
