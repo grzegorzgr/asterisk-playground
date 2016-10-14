@@ -35,11 +35,6 @@ class profile::jenkins::common (){
 
   include epel
 
-  host {'gitlab-woa.kainos.pl':
-    ensure => present,
-    ip     => '52.51.75.77',
-  }
-
   package {'ImageMagick-devel':
     ensure => installed,
   }
